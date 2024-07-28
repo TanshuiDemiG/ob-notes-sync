@@ -13,6 +13,9 @@
 
 ![[ANU master of computing 选课梳理_5_生吞小栗子_来自小红书网页版.jpg]]
 
+
+![alt text](Anu_Study/00-Attachments/ANU master of computing 选课梳理_5_生吞小栗子_来自小红书网页版.jpg)
+
 # 选课方案
 ## 必修
 - pp1 s1
