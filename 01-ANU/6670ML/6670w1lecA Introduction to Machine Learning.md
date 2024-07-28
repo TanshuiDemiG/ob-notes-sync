@@ -20,7 +20,7 @@
 
 ## ML
 - have rules on data
-	- ![[Pasted image 20240723100553.png]]
+- ![[Pasted image 20240723100553.png]]
 
 - rules come from whats inside, a computer is **training** 
 	- blackbox
