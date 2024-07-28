@@ -1,4 +1,8 @@
 # ob-notes
-for mobile to sync
+Originel Purpose was to sync my notes to IOS
 
-a cool edit
+But it seems like it would be nice to share it?
+
+Including Math6005, COMP 6670,6710,8260
+Latest update to week1
+
