@@ -105,24 +105,35 @@ Example: (p ∧ q ∧ ¬r) ∨ (¬p ∧ q ∧ r) ∨ (¬p ∧ ¬q ∧ r) is in *
 
 ## Theorem 定理
 **Theorem**: Every statement form that is not a contradiction is logically equivalent to a disjunctive normal form.
-每一个非假的命题公式都有析取范式
+**每一个非假的命题公式都有析取范式**
 
 **Proof**: Consider the truth table of some **arbitrary任意** statement form that is not a contradiction.
-假设一个非矛盾式
+**假设一个非矛盾式**
 
 Using a conjunction in which each statement variable or its negation appears but not both, we can make a statement form with a truth table in which there is exactly one T.
-必有成真变元值
+**必有成真变元值**
 
 By intentionally choosing between the statement variables and their negations, we can make that T be in any row of the truth table. To make a statement form to match any particular truth table we note the rows in which T’s appear, we use a conjunction for each such row and we combine these conjunctions into a disjunction.
-记录成真条件，行合取（因为永真，故每个变元都真），括号外析取
+**记录成真条件，行合取（因为永真，故每个变元都真），括号外析取，得到析取范式**
 
 
 
 
 **Theorem**: A set of logical connectives A is functionally complete if any statement form is logically equivalent to a statement form that is made using only statement variables, parentheses, and connectives from A.
-**Corollary**: The set {∧, ∨, ¬} is a functionally complete set of logical connectives.
+- 连接词在集合A上可以完整表达，则具备功能完整性
+**Corollary**: The set {∧, ∨, ¬} is a functionally complete set of logical connectives..
+- 连接词全功能集
 **To proof :**
 	Consider the truth table of an arbitrary statement form X. If X is not a contradiction, then by the previous frame we can present the statement form in disjunctive normal form. If X is a contradiction, then then the contradiction p ∧ ¬p, where p is a statement variable of X is logically equivalent to the statement form X.
-
+如：
+¬  ∧ ∨ 
+¬      ∨ 
+¬  ∧ 
+¬ → 
+补充：
+¬ 与非↑ NAND
+	不同时 为真z
+¬ 或非↓ NOR
+	同时为假
 
 
