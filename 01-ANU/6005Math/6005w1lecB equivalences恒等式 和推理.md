@@ -36,9 +36,7 @@ When two statement forms f , g have identical truth tables we say they are ***lo
 	- 非重言为永假
 	- 非永假为重言
 - 
-
-
-### example of xor
+### example: xor equivalent
 equivalent is 
 p ⊕ q 
 ≡ (p ∨ q) ∧ ¬(p ∧ q)
@@ -46,20 +44,27 @@ p ⊕ q
 
 
 
-## vocab
+## vocabulary associated to p →q
+- p →q
+	- p implies q 
+	- if p then q 
+	- p only if q 
+	- q if p
 - The **converse** of p → q is q → p 
 	- 倒数
 - The **inverse** of p → q is ¬p → ¬q 
 	- 逆蕴
 - The **contrapositive** of p → q is ¬q → ¬p
 	- 反推出
-- 
 
-
-
-
-
-
+- Which, if any, of the following statements concerning p → q are true: 
+	- A. The converse of the inverse is the contrapositive. 
+	- B. The inverse of the converse is the contrapositive. 
+	- C. The inverse of the contrapositive is the converse. 
+	- D. The converse of the contrapositive is the inverse. 
+	- E. The statement form is logically equivalent to its contrapositive. 
+	- F. **The inverse is logically equivalent to the converse.** 
+	- G. **The statement is not logically equivalent to its converse.**
 
 # 充要条件 Necessary and sufficient conditions
 - p is a **sufficient** condition for q means p → q. 
