@@ -4,8 +4,12 @@
 或
 非
 与非NAND
+- ***¬ 与非↑ NAND***
+	- 不同时 为真z
+- ***¬ 或非↓ NOR***
+	- 同时为假
 
-
+X ∧ Y ≡ ¬(X ↑ Y ) ≡ (X ↑ Y ) ↑ (X ↑ Y ).
 ### example
 ![[Pasted image 20240725112443.png]]
 
@@ -24,23 +28,23 @@ The specified domain is the **domain论域** of the predicate.
 		- The existential statement ∃!x p(x) is read aloud “There exists **a** unique x (in the domain) such that p(x) is true” or “p(x) is true for **exactly one** x (in the domain)”.
 
 
-### Notation
+### Notation 符号
 ⇒ and ⇔ Let p(x) and q(x) be predicates and suppose the common domain of x is D. 
-- The notation p(x) ⇒ q(x) is short for ∀x p(x) → q(x) 
-- The notation p(x) ⇔ q(x) is short for ∀x p(x) ↔ q(x) 
+- ***The notation p(x) ⇒ q(x) is short for ∀x p(x) → q(x)*** 
+- ***The notation p(x) ⇔ q(x) is short for ∀x p(x) ↔ q(x)*** 
 - WARNING: It is not uncommon for mathematicians to use → and ⇒ interchangeably, as if they mean the same thing.
 
+# How to prove 
+
+## Proving ∀
+To prove a statement of the form ∀x p(x), one may follow this plan: Let x be a (fixed but arbitrary) element of the predicate domain. Argue that p(x) is true.
+
+## Proving ∀
+To prove a statement of the form ∀x p(x), one may follow this plan: Let x be a (fixed but arbitrary) element of the predicate domain. Argue that p(x) is true. 
 
 
-
-
-
-
-
-
-
-
-
+## Disproving ∀
+To disprove a statement of the form ∀x p(x), one should prove the statement ∃x ¬p(x). (This is called providing a ***counterexample***)
 
 
 
