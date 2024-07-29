@@ -1,9 +1,10 @@
-# Logical equivalence
+# Logic
+## Logical Equivalences恒等式 
+
 When two statement forms f , g have identical truth tables we say they are ***logically equivalent*** and write f ≡ g
 
 (***Alt. Def.:*** When f , g are statement forms and f ↔ g is a tautology, we say that f and g are logically equivalent and write f ≡ g.)
 
-# Logical Equivalences恒等式 
 
 ***t is toutology c is contridiction***
 - 所有下述公式为  ***恒等式***
@@ -36,6 +37,15 @@ When two statement forms f , g have identical truth tables we say they are ***lo
 	- 非永假为重言
 - 
 
+
+### example of xor
+equivalent is 
+p ⊕ q 
+≡ (p ∨ q) ∧ ¬(p ∧ q)
+≡ (p ∧ ¬q) ∨ (p ∧ ¬q)
+
+
+
 ## vocab
 - The **converse** of p → q is q → p 
 	- 倒数
@@ -44,6 +54,12 @@ When two statement forms f , g have identical truth tables we say they are ***lo
 - The **contrapositive** of p → q is ¬q → ¬p
 	- 反推出
 - 
+
+
+
+
+
+
 
 # 充要条件 Necessary and sufficient conditions
 - p is a **sufficient** condition for q means p → q. 

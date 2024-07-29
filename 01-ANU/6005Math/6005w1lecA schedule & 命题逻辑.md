@@ -3,7 +3,7 @@
 # Schedule
 ![[Pasted image 20240723144339.png]]
 
-# 命题逻辑
+# 命题逻辑logic
 ### definition of statements
 - A ***statement*** is a sentence that is true or false but not both.
 
@@ -30,9 +30,9 @@ When a variable represents an arbitrary statement, it is called a ***statement v
 ***A truth table*** records the truth value taken by a statement form for each possible combination of truth values taken by the statement variables appearing in the statement form
 - ***NOT***¬
 	- the **negation**
-- ***OR***∨
+- ***OR***∨ 析取
 	- the **disjunction**
-- ***AND***∧
+- ***AND***∧合取
 	- the **conjunction**
 - ***XOR异或*** ⊕
 	- “p or q but not both”
