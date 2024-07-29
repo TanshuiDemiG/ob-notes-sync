@@ -1,5 +1,4 @@
-# Logic
-## Logical Equivalences恒等式 
+# Logical Equivalences恒等式 
 
 When two statement forms f , g have identical truth tables we say they are ***logically equivalent*** and write f ≡ g
 
@@ -76,4 +75,48 @@ p ⊕ q
 	- p is a necessary condition for q means q → p; 
 	- p is a necessary and sufficient condition for q means p ↔ q. 
 	- In view of the above terminology, statements of the form p → q and p ↔ q are often referred to as ***conditional statements.（条件语句）***
+- 定理
+	- ¬(¬p) ≡ p (1) 
+	- ¬(p ∧ q) ≡ ¬p ∨ ¬q (2) 
+	- ¬(p ∨ q) ≡ ¬p ∧ ¬q (3) 
+	- ***¬(p ⊕ q) ≡ (p ∧ q) ∨ (¬p ∧ ¬q) (4)*** 
+	- ¬(p → q) ≡ p ∧ ¬q  (5)
+	- ¬(p ↔ q) ≡ (p ∧ ¬q) ∨ (¬p ∧ q)
+
+
+# 功能完整性Functional completeness
+- 真值表转换逻辑表达式
+- 找到真值表中的真值式子statement forms进行合取（因为永真，故每个变元都真），括号外析取
+- 
+①找到真值表**输出为1**的行
+
+②输入变量之间是**与**的关系，输出状态之间是**或**的关系
+
+  对于输入输出变量，取**1**值用**原变量**表示，取**0**值用**反变量**表示
+
+③得出逻辑函数表达式并化简（最好用等式或卡诺图法化简）
+
+**（也可以理解为写出最小项表达式）**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
