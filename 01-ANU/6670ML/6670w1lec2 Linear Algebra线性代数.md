@@ -1,4 +1,6 @@
-
+Base concepts: vectors and systems of linear equations 
+Matrices 
+Solving systems of linear equations 
 
 # REVIEW
 
