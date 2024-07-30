@@ -54,7 +54,7 @@ p ⊕ q
 - The **inverse** of p → q is ¬p → ¬q 
 	- 逆蕴
 - The **contrapositive** of p → q is ¬q → ¬p
-	- 反推出
+	- 逆反
 
 - Which, if any, of the following statements concerning p → q are true: 
 	- A. The converse of the inverse is the contrapositive. 

@@ -40,7 +40,7 @@ When a variable represents an arbitrary statement, it is called a ***statement v
 - ***IMPLIES***推 →
 	- the **conditional** of q by p
 	- When the hypothesis in a conditional is false, we say that the conditional is **vacuously true虚虚实实**（善意推理）
-- ***IFF*** 当且仅当 ↔
+- ***IF*** 当且仅当 ↔
 	- the **biconditional** of p and q
 - ***Statements and statement forms***
 	- Each statement is an **instance** of *one or more* **statement forms命题公式**
