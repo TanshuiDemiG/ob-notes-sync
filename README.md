@@ -13,5 +13,7 @@ log:
 		- [ ] yet to know how to link pictures
 - 7.29 
 	- updated 6005 week1(lec ABC)
-		- [ ] yet to do quizes
-
+		- [x] yet to do quizes
+- 7.30
+	- updated 6670
+	- tired T_T

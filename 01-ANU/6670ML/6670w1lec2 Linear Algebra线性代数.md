@@ -81,7 +81,7 @@ AB ≠ BA
 A × I = A  
 I × A = A
 
-### 2.2.2 Inverse and Transpose逆矩阵和转置矩阵
+### 2.2.2 Inverse逆矩阵 and Transpose和转置矩阵
 
 ![[Pasted image 20240731010726.png]]
 
@@ -96,7 +96,42 @@ I × A = A
 ![[Pasted image 20240731010956.png]]
 
 ### 2.2.3 Multiplication by a Scalar标量
+![[Pasted image 20240731014038.png]]
 
+![[Pasted image 20240731014046.png]]
+
+### 2.2.4 Compact Representations of Systems of Linear Equations 紧凑表示
+
+
+
+
+## 2.3 Solving systems of linear equations
+### 2.3.1 Gaussian elimination
+- 高斯消元法
+
+
+### 2.3.2 Elementary Transformations 基本变换
+
+将矩阵变为阶梯矩阵
+row-echelon form (REF)
+
+
+
+
+# Calculating the Inverse with Gaussian Elimination
+
+![[Pasted image 20240731015307.png]]
+
+
+
+# Moore-Penrose pseudo-inverse
+
+摩尔-彭罗斯伪反演
+
+
+We can calculate 𝑨𝑨−1only when 𝑨𝑨 is a square matrix and is invertible
+
+![[Pasted image 20240731022344.png]]
 
 
 
