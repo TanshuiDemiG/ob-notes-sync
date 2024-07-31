@@ -87,6 +87,19 @@ I × A = A
 
 ![[Pasted image 20240731010737.png]]
 
+
+- A矩阵不可逆   
+	- <=> |A| = 0  
+	- <=> A的列(行)向量组线性相关  
+	- <=> R(A)<n  
+- <=> AX=0 有非零解  
+	- <=> A有特征值0.  
+	- <=> A不能表示成初等矩阵的乘积  
+	- <=> A的等价标准形不是单位矩阵
+	- <=>**不满秩，则不可逆**
+	- 
+
+
 - 重要特性
 ![[Pasted image 20240731010920.png]]
 
@@ -106,8 +119,7 @@ I × A = A
 
 
 ## 2.3 Solving systems of linear equations
-### 2.3.1 Gaussian elimination
-- 高斯消元法
+### 2.3.1 Gaussian elimination-高斯消元法
 
 
 ### 2.3.2 Elementary Transformations 基本变换
