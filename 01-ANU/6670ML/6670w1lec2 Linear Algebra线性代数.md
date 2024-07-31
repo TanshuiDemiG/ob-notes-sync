@@ -44,8 +44,6 @@ Multiplying:乘法
 
 ### 2.2.1 Matrix Addition and Multiplication
 
-
-
 Multiply
 ![[Pasted image 20240731005720.png]]
 
@@ -87,7 +85,7 @@ I × A = A
 
 ![[Pasted image 20240731010737.png]]
 
-
+#### 可逆条件
 - A矩阵不可逆   
 	- <=> |A| = 0  
 	- <=> A的列(行)向量组线性相关  
