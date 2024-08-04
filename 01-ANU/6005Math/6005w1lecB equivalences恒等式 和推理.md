@@ -75,14 +75,44 @@ p ⊕ q
 	- p is a necessary condition for q means q → p; 
 	- p is a necessary and sufficient condition for q means p ↔ q. 
 	- In view of the above terminology, statements of the form p → q and p ↔ q are often referred to as ***conditional statements.（条件语句）***
-- 定理
+- 
+# 定理
+- 常用等价
 	- ¬(¬p) ≡ p (1) 
 	- ¬(p ∧ q) ≡ ¬p ∨ ¬q (2) 
 	- ¬(p ∨ q) ≡ ¬p ∧ ¬q (3) 
 	- ***¬(p ⊕ q) ≡ (p ∧ q) ∨ (¬p ∧ ¬q) (4)*** 
 	- ¬(p → q) ≡ p ∧ ¬q  (5)
-	- ¬(p ↔ q) ≡ (p ∧ ¬q) ∨ (¬p ∧ q)
+	- (p ↔ q) ≡ (p ∧ ¬q) ∨ (¬p ∧ q)
+- 包括[蕴涵](https://zh.wikipedia.org/wiki/%E8%95%B4%E6%B6%B5 "蕴涵")的逻辑等价：  
+	1. p→q≡﹁p∨q  
+	    
+	2. p→q≡﹁q→﹁p  
+	    
+	3. p∨q≡﹁p→q  
+	    
+	4. p∧q≡﹁(p→﹁q)  
+	    
+	5. ﹁(p→q)≡p∧﹁q  
+	    
+	6. (p→q)∧(p→r)≡p→(q∧r)  
+	    
+	7. (p→q)∨(p→r)≡p→(q∨r)  
+	    
+	8. (p→r)∧(q→r)≡(p∨q)→r  
+	    
+	9. (p→r)∨(q→r)≡(p∧q)→r  
+    
 
+包含双蕴涵（[逻辑双条件](https://zh.wikipedia.org/wiki/%E9%80%BB%E8%BE%91%E5%8F%8C%E6%9D%A1%E4%BB%B6 "逻辑双条件")）的逻辑等价：  
+
+1. p↔q≡(p→q)∧(q→p)  
+    
+2. p↔q≡﹁p↔﹁q  
+    
+3. p↔q≡(p∧q)∨(﹁p∧﹁q)  
+    
+4. ﹁(p↔q)≡p↔﹁q
 
 # 功能完整性Functional completeness
 ##  真值表转换逻辑表达式
