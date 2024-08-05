@@ -45,7 +45,7 @@ A **composite number** is a positive integer that can be formed by multiplying t
 
 
 
-# Cartesian products: Another way to make new sets from old 笛卡尔积
+# Cartesian products 笛卡尔积: Another way to make new sets from old 
 
 ## Order and multiplicity 
 In sets, there is **no sense of the order** in which elements appear and there is no idea of how many times an elements appears. 
@@ -58,6 +58,60 @@ Let n be a positive integer and let x1, x2, . . . , xn be (not necessarily disti
 
 #### examples:
 ![[Pasted image 20240804161304.png]]
+
+## Cartesian product 笛卡尔积
+
+- expression
+	- “the set of all ordered n-tuples with elements a1, a2, through, an such that a1 comes from A1, a2 comes from A2, through an comes from An.”
+
+- The expression {(a1, a2, . . . , an) | a1 ∈ A1, a2 ∈ A2, . . . , an ∈ An}. 
+	- does not appear to conform to the rules of set-builder notation we laid out in the last lecture 
+- because
+	- the domain part introduces variables but does not specify a domain for each; 
+	- the “predicate” **does not appear to be a single predicate**
+
+
+#### Example
+![[Pasted image 20240805121511.png]]
+
+## Strings and languages                 
+
+Let A be a set. A string (or word) of length n **over (the alphabet)**
+A is an ordered n-tuple, written without parentheses or commas, in which every element is taken from A. 
+The **null string** (or empty word) over A is the “string” with no characters. 
+The null string over A is denoted λ and said to have length 0. 
+We write A∗ for the set of all strings over the alphabet A. 
+Any subset of A∗ is called **a language.**
+
+#### example of language
+
+
+![[Pasted image 20240805122144.png]]
+
+
+# Partitions: A structure for recognising that a classification works well
+分区： 识别分类效果的结构
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
