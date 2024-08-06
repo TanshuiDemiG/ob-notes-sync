@@ -89,23 +89,25 @@ Any subset of A∗ is called **a language.**
 ![[Pasted image 20240805122144.png]]
 
 
-# Partitions: A structure for recognising that a classification works well
+# Partitions 分区: A structure for recognising that a classification works well
 分区： 识别分类效果的结构
+A common task in any discipline (science, mathematics, philosophy, humanities, ...) is that of classifying things of a certain type into various sub-types. Thanks to our development of set theoretic tools, we have a way to formalise what it means for such a classification scheme to work really well
 
+任何学科（科学、数学、哲学、人文学科......）都有一项共同的任务，那就是将某一类型的事物划分为不同的子类型。得益于集合论工具的发展，我们有了一种方法，可以将这种分类方案真正有效的含义形式化
 
+e.g. 
+We classify each integer as positive, negative or 0
 
+## disjoint sets
+joint sets Sets A, B are called disjoint when A ∩ B = ∅
 
+- Given a set of sets **S**, the sets in S are said to be **pairwise disjoint成对互联** 
+	- when 
+![[Pasted image 20240805124323.png]]
+#### example of pairwise disjoint
+![[Pasted image 20240805124422.png]]
 
-
-
-
-
-
-
-
-
-
-
+## Partitions 分区
 
 
 
