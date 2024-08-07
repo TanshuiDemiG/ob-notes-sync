@@ -108,24 +108,7 @@ joint sets Sets A, B are called disjoint when A ∩ B = ∅
 ![[Pasted image 20240805124422.png]]
 
 ## Partitions 分区
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![[Pasted image 20240807114831.png]]
 
 
 

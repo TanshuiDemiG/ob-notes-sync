@@ -41,7 +41,7 @@ if D is empty
 
 
 ## notation 集合符号 表达
-### Set-roster 
+### Set-roster 大括号
 - roster 就是{}
 - normally
 	- Describe each of the following sets in words. 
